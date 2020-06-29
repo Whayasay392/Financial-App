@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href=" https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <script src="https://kit.fontawesome.com/74091f2b8e.js"></script>
+     <link rel="stylesheet" type="text/css" href="style.css">
+     <link href='https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800' rel='stylesheet'>
+     
+</head>
+<body class="container-fluid">
+    <div>
+    <!--Header nav section-->
+    <nav style="background:  #C4C4C4; width: 100vw; " class="navbar navbar-expand-lg navbar-light row py-4">
+        
+        <a class="navbar-brand text-white " href="#" ><img src="images/brand.png" alt="logo" id="brand-logo"></a>
+        <form >
+          <button id="hidden-button" style="background: #5BAFCA; color: white; font-weight:700" class="btn my-2 my-sm-0 mt-sm-0" type="submit" id="download-btn">Downlaod</button>
+        </form>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+       <!--Nav collapse section-->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item active">
+              <a class="nav-link text-white" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Contacts</a>
+            </li>
+            
+          </ul>
+          
+        </div>
+        <form class="form-inline my-2 my-lg-0">
+            <button style="background: #5BAFCA; color: white; font-weight:700" class="btn my-2 my-sm-0 mt-sm-0" type="submit" id="download-btn">Downlaod</button>
+          </form>
+      </nav>   
+
+      <!--Second section-->
+      <div class="row justify-content-around" id="second-section">
+        <div class="col-sm-12 col-md-4 col-lg-4">
+            <img class="img-fluid w-100"  src="images/devices.png" alt="logo">
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-6 py-5 py-sm-0 my-sm-0">
+            <h2 id="heading-one">Circle Budgets, Helps You Make and track your expenses</h2>
+            <p id="paragraph-one">If you no sabi use money, come join us for this better App, wey go help u circle your budget and track your expenses, E get why.</p>
+            <h5 style="font-weight:900" id="heading-two">DOWNLOAD THE APP TODAY <br> AND START USING FOR FREE</h5>
+           
+           
+            <div class="row col-12 col-md-10 justify-content-around">
+                <div class="col-">
+                  <button class="text-white" id="apple"><i class="fa fa-apple" aria-hidden="true"></i>APP STORE</button>
+                </div>
+                <div class="col-">
+                  <button class="text-white" id="playstore"><i class="fa fa-android"></i>PLAY STORE</button>
+                </div>
+              </div>
+        </div>
+      </div>
+
+
+      <!--Features section-->
+      <div style="background: #C4C4C4;" class="row justify-content-around py-3">
+        <div class="row col-12 my-5 justify-content-center" >
+            <h3 id="features">App Features</h3>
+        </div>
+          <div class="col-sm-12 col-md-3 col-lg-3 align-items-center">
+            <img class="rounded mx-auto d-block" src="images/calculate.png" alt="calculate">
+            <h4 style="margin-top: 10px;" id="sub-heading">Track Your Expenses</h4>
+            <p id="section-three-paragraph">Create and track all your daily expenses with Cbudget, get notified when it is time make purchases and pay for bills.</p>
+          </div>
+          <div class="col-sm-12 col-md-3 col-lg-3">
+            <img class="rounded mx-auto d-block" src="images/pure.png" alt="pure">
+            <h4 id="sub-heading">Pure & Simple</h4>
+            <p id="section-three-paragraph">Cbudget has a simple design that make sure that the user experience is satisfactory and enjoyable.</p>
+          </div>
+          <div class="col-sm-12 col-md-3 col-lg-3">
+            <img class="rounded mx-auto d-block" src="images/payment.png" alt="payment">
+            <h4 id="sub-heading">Easy Payments</h4>
+            <p id="section-three-paragraph">With our partnership with Fluterwave, mastercard and Visa you can make payments easily no stress.</p>
+          </div>
+          <div class="w-100"></div>
+          <div class="col-sm-12 col-md-3 col-lg-3">
+            <img class="rounded mx-auto d-block" src="images/Expenses.png" alt="Expenses">
+            <h4 id="sub-heading">Make Your Budget List</h4>
+            <p id="section-three-paragraph">Making budgets is very vital in tracking daily expenses, we provide a solution to make budgets and quick reminder when its due for a budget.</p>
+          </div>
+      </div>
+
+      <!--Download section-->
+      <div id="download-section" class="row py-5">
+          <div class="row col-12 my-2 justify-content-center">
+            <h6 id="section-four-heading">Download Now</h6>
+          </div>
+       
+        <br>
+        <img class="img-fluid mx-auto" src="images/iphone.png" alt="iphone">
+        <div class="row col-10 col-12 justify-content-center my-5 mx-sm-auto">
+            <!-- <div class="mx-5 mx-sm-1 col-sm-12"> -->
+              <button class="text-white" id="apple2"><i class="fa fa-apple" aria-hidden="true"></i>APP STORE</button>
+              <button class="text-white" id="playstore2"><i class="fa fa-android" aria-hidden="true"></i>PLAY STORE</button>
+          </div>
+      </div>
+
+      <!--Client Section-->
+      <div id="fifth-section" class="row py-3">
+          <img class="img-fluid mx-auto my-auto" src="images/play.png" alt="play">
+      </div>
+      <div id="client-section" class="row justify-content-center py-4">
+        <div class="row col-12 my-4">
+          <h2 class="mx-auto" id="client-heading">What Our Clients Says</h2>
+      </div>
+      <img class="img-fluid mx-auto" src="images/Wick.png" alt="wick">
+      <div class="row col-10 col-sm-12 justify-content-center my-3"></div>
+      <p id="img-caption">“ CBudget has helped me track all my expenses” <br>
+        buy a new dog and avoid unecessary fight.</p>
+      </div>
+        <h1 id="client-name">John Wick</h1>
+
+        <!--Payment section-->
+        <div id="payment-section" class="row py-4 px-5 text-center">
+                <div class="row col-12 my-2">
+                <h1 class="my-4 mx-auto" id="payment-section-heading">Partners</h1>
+                </div>
+                    <img class="img-fluid mx-auto col-12 col-md-3" src="images/flutter.png" alt="flutter">
+                    <img class="img-fluid mx-auto col-12 col-md-3" src="images/mcard.png" alt="mcard">
+                    <img class="img-fluid mx-auto col-12 col-md-3" src="images/visa.png" alt="visa">
+                
+            </div>
+
+          <!--Screenshot section-->
+            <div id="screenshot-section" class="row text-center">
+                <div class="col-12 my-2 mx-auto">
+                <h1 class="my-4 mx-auto col-12 text-center" id="payment-section-heading">Screenshots</h1>
+                </div>
+                    <img class="img-fluid mx-auto d-block col-12 col-md-3" src="images/screenone.png" alt="flutter">
+                    <img class="img-fluid col-12 col-md-3" src="images/screentwo.png" alt="mcard">
+                
+                    <img class="img-fluid mx-auto col-12 col-md-3" src="images/screenthree.png" alt="visa">
+            </div>
+
+
+            <!--Contact section-->
+            <div id="contact-section" class="row justify-content-around py-4 px-5">
+                <div class="row col-12 my-2 justify-content-center">
+                <h1 class="my-4" id="location-section-heading">Get in Touch</h1>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4 mt-0">
+                    <img class="img-fluid mx-auto my-3 d-block" src="images/location.png" alt="location">
+                    <p id="contact-details">NO 4 Bricks Park Lane <br>
+                        Osapa Afrique, UK</p>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4 mb-4">
+                    <img class="img-fluid mx-auto my-3 d-block" src="images/message.png" alt="message">
+                    <p class="mb-4" id="contact-details">Info@cbudget.co.uk</p>
+                    <div class="row justify-content-center mx-1 ">
+                    
+                        <div class="col-3">
+                            <img src="images/facebook.png" alt="fb">
+                        </div>
+                        <div class="col-3">
+                            <img src="images/youtube.png" alt="fb">
+                        </div>
+                        <div class="col-3">
+                            <img src="images/instagram.png" alt="fb">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4">
+                    <img class="img-fluid mx-auto my-3 d-block" src="images/call.png" alt="call">
+                    <p id="contact-details">+0122222CBUDGET</p>
+                </div>
+            </div>
+
+            <!--Footer section-->
+            <div id="footer" class="row ">
+              <footer class=" row page-footer indigo pt-5 pb-2 w-100" id="footer">
+                <form class="form-inline w-100 col-12" action="">
+                  <div class="col-10 col-md-4 mr-md-5 ml-md-5">
+                     <input type="text" placeholder="Name" id="name">
+                  </div>
+                  <div class="col-10 col-md-4 text-center ml-md-2">
+                    <input type="email" placeholder="Email Address" id="email">
+                  </div>
+                  <div class="col-12 col-md-2 ">
+                    <button class="text-white " id="sign-up">SIGN UP</button>
+                  </div>
+                </form>
+                <div class="container mt-5 pt-2">
+                    <p id="copy">&copy;Copyright 2020 CIRCLE BUDGET |
+                        All Rights Reserved | HNGi7</p>
+                </div>
+              </footer>
+            </div>
+      </div>
+       
+    
+</body>
+</html>
